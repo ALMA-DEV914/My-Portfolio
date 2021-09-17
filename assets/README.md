@@ -1,4 +1,4 @@
-# Proffesional Portfolio
+# My-Portfolio
 
 ## Presenation Requirements
 * with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
