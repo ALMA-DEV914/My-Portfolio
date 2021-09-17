@@ -49,6 +49,11 @@ header {
   /* style the class hero */
   .hero {
       background-image: url(./assets/images/hero-bg-jpg);
+      background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   }
   /* style the footer */
   footer {
