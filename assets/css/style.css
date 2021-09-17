@@ -46,6 +46,10 @@ header {
     font-weight: lighter;
     font-size: 1.55vm;
   }
+  /* style the class hero */
+  .hero {
+      background-image: url(./assets/images/hero-bg-jpg);
+  }
   /* style the footer */
   footer {
     background: #080808;
