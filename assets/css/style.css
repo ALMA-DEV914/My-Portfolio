@@ -10,23 +10,25 @@ body {
 }
 header {
     padding: 20px 35px;
-    background-color: #050505;
+    background-color: #070707;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
   }
   /* apply style to header h1*/
-  header h1 {
+  header h1 a{
     font-weight: bold;
     font-size: 36px;
-    color: #fce138;
+    color: #020202;
     margin: 0;
-  
+    background-color: #edf6f7;
+    padding: 6px 12px 8px 50px;
   }
   /* apply style to the header link */
   header a {
     text-decoration: none;
-    color: #fce138;
+    color: #f8f7f0;
+    
   }
   /* apply style to the header nav */
   header nav {
@@ -45,24 +47,42 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.55vm;
+    border-bottom: 2px solid #f7f6f2;
   }
   /* style the class hero */
   .hero {
-      background-image: url(./assets/images/hero-bg-jpg);
-      background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 250px;
+    justify-content: center;
   }
+  /* style the class hero-content h2 */
+  .hero h2 {
+    font-size: 36px;
+    color: rgb(5, 5, 5); 
+   
+  }
+  .author-info {
+    padding: 40px 35px;
+    font-size: 35px;
+    color: #024e76;
+    padding-bottom: 20px;
+    margin: 0 auto 35px auto;
+    
+
+  }
+
   /* style the footer */
   footer {
     background: #080808;
     width: 100%;
     padding: 40px 35px;
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
   }
   /* style the footer h2 */
   footer h2 {
