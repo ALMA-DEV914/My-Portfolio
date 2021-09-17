@@ -3,7 +3,7 @@
 ## Presentation Requirements
 * with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 
-## Performance
+## Performance Requirements
 * links in the navigation that scrolls to the corresponding section
 * link to the section about their work that scrolls to a section with titled images of the developer's applications
 * presented with the developer's first application
