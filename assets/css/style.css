@@ -51,19 +51,31 @@ header {
   }
   /* style the class hero */
   .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/image-1.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     height: 250px;
-    justify-content: center;
+    justify-content: right;
   }
-  /* style the class hero-content h2 */
-  .hero h2 {
+  /* style the class flex-row */
+  .flex-row {
+    display: flex;
+    flex: 0 40%;
+    margin: 170px 20px 20px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  /* style the class flex-row h2 */
+  .flex-row h2 {
     font-size: 36px;
-    color: rgb(5, 5, 5); 
-   
+    color: #c99f15;
+    padding: 4px 8px;
+    background-color: #080808;
+     font-style: italic;
+  
   }
   .author-info {
     padding: 40px 35px;
