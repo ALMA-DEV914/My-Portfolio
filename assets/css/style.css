@@ -52,7 +52,7 @@ header {
   }
   /* style the class hero */
   .hero {
-    background-image: url("../images/image-1.jpg");
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -132,16 +132,19 @@ header {
    display: block;
    
  }
- .box{
+ .run-buddy{
    width: 100%;
    height: 400px;
-   border: 5px solid #1581c9;
+   border: 5px solid #094369;
    margin: 10px;
    display: flex;
-   background-image: url(../images/image-4.jpg);
    background-size: cover;
-  
    
+   
+ }
+ .run-buddy-flex-item {
+   justify-content: flex-end;
+   margin: 300px 0 40px;
  }
  .boxes {
    width: 48%;
@@ -149,8 +152,18 @@ header {
    flex-wrap: wrap;
    height: 200px;
    border: 5px solid #024e76;
-   margin: 10px;
+   margin: 10px auto;
    background-size: cover;
+ }
+ .flex-item {
+   justify-content: flex-start;
+   margin: 80px 0 40px;
+   padding: 10px 14px;
+   background-color: #000000;
+   color: #c99f15;
+ }
+ .flex-item p {
+   color: #e9f2f3;
  }
   /* style the footer */
   footer {
