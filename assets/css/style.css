@@ -64,10 +64,9 @@ header {
   .flex-row {
     display: flex;
     flex: 0 40%;
-    margin: 170px 20px 20px 0;
     flex-wrap: wrap;
     justify-content: center;
-    
+    margin: 170px 20px 20px 0;
   }
   /* style the class flex-row h2 */
   .flex-row h2 {
@@ -75,7 +74,8 @@ header {
     color: #c99f15;
     padding: 4px 8px;
     background-color: #080808;
-     font-style: italic;
+    font-style: italic;
+    border: 2px solid #e9f2f3;
   
   }
   .about-info {
@@ -84,8 +84,9 @@ header {
     color: #024e76;
     padding-bottom: 20px;
     margin: 0 auto 35px auto;
-    
+    display: flex;
   }
+  
   .about-author{
     height: 200px;
     width: 100%;
@@ -111,6 +112,7 @@ header {
     border-left: 5px solid #636668;
     margin: 0 0 0 30px;
     padding: 0 20px;
+    justify-content: space-between;
   
   }
   .about-title {
@@ -120,12 +122,19 @@ header {
   .about-title h2 {
     font-size: 35px;
     color: #000;
-    
-    
+      
+  }
+  .my-info img {
+    width: 200px;
+    border-radius: 100%;
+    border: 3px solid #d1bc03;
+    background: #070707;
   }
   .my-info p {
     font-size: 18px;
     color: #000;
+    flex: 2 70%;
+    margin: 0 0 0 20px;
   }
 
  span {
@@ -140,11 +149,6 @@ header {
    display: flex;
    background-size: cover;
    
-   
- }
- .run-buddy-flex-item {
-   justify-content: flex-end;
-   margin: 300px 0 40px;
  }
  .boxes {
    width: 48%;
