@@ -23,6 +23,7 @@ header {
     margin: 0;
     background-color: #edf6f7;
     padding: 6px 12px 8px 50px;
+    border-radius: 10px;
   }
   /* apply style to the header link */
   header a {
@@ -77,7 +78,7 @@ header {
      font-style: italic;
   
   }
-  .author-info {
+  .about-info {
     padding: 40px 35px;
     font-size: 35px;
     color: #024e76;
@@ -102,7 +103,7 @@ header {
     justify-content: space-between;
     
   }
-  .about-info {
+  .my-info {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -122,7 +123,7 @@ header {
     
     
   }
-  .about-info p {
+  .my-info p {
     font-size: 18px;
     color: #000;
   }
