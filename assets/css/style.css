@@ -1,3 +1,4 @@
+/* Style for all css rules */
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +9,10 @@ body {
      background-color: #f5eeee;
      color: white;
 }
+/* style the header of the page */
 header {
     padding: 20px 35px;
-    background-color: #070707;
+    background-color: #030303;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -21,7 +23,7 @@ header {
     font-size: 36px;
     padding: 8px 8px 8px 80px;
     background-color: #097c80;
-    
+    color: #f7f2f2;
   }
   /* apply style to the header link */
   header a {
@@ -46,12 +48,12 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-    border-bottom: 2px solid #21bdb0;
-    color: #11bec4;
+    border-bottom: 3px solid #0ea0a5;
+    color: #0eabb1;
   }
   /* style the class hero */
   .hero {
-    background-image: url(../images/y2.jpg);
+    background-image: url(../images/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -70,13 +72,12 @@ header {
   /* style the class flex-row h2 */
   .flex-row h2 {
     font-size: 30px;
-    color: #fcfafa;
+    color: #faf5f5;
     padding: 8px 8px;
     background-color: #097c80;
     font-style: italic;
-
-  
-  }
+}
+/* style the class about-author section */
   .about-author{
     height: 200px;
     width: 100%;
@@ -84,6 +85,7 @@ header {
     height: 100%;
    
   }
+  /* Add style to the class article-content */
   .article-content {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -92,36 +94,41 @@ header {
     flex-wrap: wrap;
 
   }
- 
+ /* Style the class article-title */
   .article-title {
      width: 15%;
      text-align: right;
   }
+  /* Add style to the article-content h3 */
   .article-title h3 {
     font-size: 48px;
     color: #000;
       
   }
+  /* Add style to the class article-info */
   .article-info {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex: 2 70%;
-    border-left: 5px solid #636668;
+    border-left: 5px solid #5d615f;
     margin: 0 0 0 30px;
     padding: 0 15px;
     justify-content: space-between;
   
   }
+  /* style to the class article-info paragraph */
   .article-info p {
     font-size: 18px;
     color: #000;
     flex: 2 70%;
     margin: 0 0 0 20px;
   }
+  /* style the span in h2 */
   span {
     display: block;
   }
+  /* Style the class horiseon-appliaction section */
  .horiseon-application {
    width: 100%;
    height: 400px;
@@ -132,10 +139,11 @@ header {
    background-size: cover;
    text-decoration: none;
  }
+ /* style the paragrapth on class horiseon-appliaction */
  .horiseon-application img {
    width: 100%;
  }
- 
+ /* Add style to the div class projects */
  .projects {
    width: 48%;
    display: flex;
@@ -146,32 +154,38 @@ header {
    background-size: cover;
    background-position: center;
  }
+ /* Style the class flex-item on the div */
  .flex-item {
    justify-content: flex-start;
    margin: 80px 0 40px;
    padding: 10px 14px;
    background-color: #097c80;
-   color: #f7f5f1;
+   color: #f8f4f4;
    
  }
+ /* style the class flex-item h3 */
  .flex-item h3 {
    font-size: 25px;
  }
+ /* style the paragraph on the class felx-item */
  .flex-item p {
    color: #e9f2f3;
    margin: 0 10px 0 0;
  }
+ /* Add style to the article class contact-link */
  .contact-link {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
 }
+/* style the class contact-link link(a) */
 .contact-link a {
   margin: 0 22px;
   justify-content: space-evenly;
   font-size: 22px;
   color: #000;
 }
+/* Add background images for the class projects with id's */
  #github {
    background-image: url(../images/image-2.jpg);
  }
@@ -200,6 +214,7 @@ header {
     font-size: 30px;
     margin: 0;
   }
+  /* style the paragraph of the footer */
   footer p {
     color: #ebf3f3;
     font-size: 20px;
