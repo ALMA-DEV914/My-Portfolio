@@ -142,6 +142,7 @@ header {
    display: flex;
    background-image: url(../images/horiseon.png);
    background-size: cover;
+   text-decoration: none;
  }
  .box img {
    width: 100%;
@@ -163,6 +164,7 @@ header {
    padding: 10px 14px;
    background-color: #000000;
    color: #c99f15;
+   
  }
  .flex-item h3 {
    font-size: 25px;
