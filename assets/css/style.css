@@ -36,7 +36,7 @@ header {
     margin: 7px 0;
   }
   /* apply style to the header nav ul li */
-  header nav ul  {
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -44,7 +44,7 @@ header {
     list-style: none;
   }
   /* style the nav ul li link(a) */
-  header nav ul li a {
+  header nav ul li a{
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
@@ -114,6 +114,20 @@ header {
     justify-content: space-between;
   
   }
+  .contact-link {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-link a {
+    margin: 0 30px;
+    justify-content: space-evenly;
+    font-size: 22px;
+    color: #000;
+  }
+
+  /* style the nav ul li link(a) */
+ 
   .about-title {
      width: 12%;
      text-align: right;
