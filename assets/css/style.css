@@ -47,7 +47,7 @@ header {
   header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 1.55vm;
+    font-size: 22px;
     border-bottom: 2px solid #f7f6f2;
   }
   /* style the class hero */
@@ -100,8 +100,7 @@ header {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+
     
   }
   .my-info {
@@ -147,8 +146,9 @@ header {
    border: 5px solid #094369;
    margin: 10px;
    display: flex;
+   background-position: flex-start;
+   background-image: url(../images/run-buddy.png);
    background-size: cover;
-   
  }
  .boxes {
    width: 48%;
@@ -158,6 +158,7 @@ header {
    border: 5px solid #024e76;
    margin: 10px auto;
    background-size: cover;
+   
  }
  .flex-item {
    justify-content: flex-start;
@@ -168,6 +169,18 @@ header {
  }
  .flex-item p {
    color: #e9f2f3;
+ }
+ #github {
+   background-image: url(../images/github.png);
+ }
+ #calculator  {
+   background-image: url(../images/image-2.jpg);
+ }
+ #sources {
+   background-image: url(../images/beach.jpg);
+ }
+ #application {
+   background-image: url(../images/image-3.jpg);
  }
   /* style the footer */
   footer {
@@ -184,3 +197,4 @@ header {
     font-size: 30px;
     margin: 0;
   }
+  
