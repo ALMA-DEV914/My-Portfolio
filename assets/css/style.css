@@ -219,5 +219,112 @@ header {
     color: #ebf3f3;
     font-size: 20px;
   }
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom:0;
+    justify-content: center;
+  }
+  header h1 a{
+    width: 100%;
+    text-align: center;
+    padding-left: 8px;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 20px;
+  }
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
 
-  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  header {
+    padding-bottom:0;
+    justify-content: center;
+  }
+  header h1 a{
+    width: 100%;
+    text-align: center;
+    padding-left: 8px;
+  }
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  header nav ul li a {
+    font-size: 18px;
+  }
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
+}
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    }
+    header {
+      padding: 20px;
+    }
+    .flex-row {
+      flex: 0 100%;
+      justify-content: center;
+    }
+    .flex-row h2 {
+      font-size: 22px;
+    }
+    .article-content{
+      flex: 0 100%;
+      
+    }
+    .article-title {
+      flex: 0 80%;
+      align-items: center;
+    }
+    .article-title h3 {
+      color: #095153;
+     
+    }
+    span {
+      display: inline-block;
+    }
+    .about-author {
+      width: 100%;
+    }
+    .article-info {
+      flex: 0 100%;
+      border: none;
+      margin: 0 auto;
+    }  
+    .article-info p {
+      margin: 0 auto;
+    }
+    .article-info img {
+      margin: 0 auto;
+    }
+    .horiseon-application {
+      flex: 0 100%;
+      margin: 0;
+    }
+    .projects {
+      flex: 0 100%;
+    }
+    .flex-item {
+      padding: 4px 4px 4px 4px;
+    }
+    .flex-item h3 {
+      font-size: 18px;
+    }
+    .contact-link a{
+      left: 1.55;
+      margin: 0 auto;
+    }
+  }
