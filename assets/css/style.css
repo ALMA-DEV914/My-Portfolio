@@ -80,10 +80,9 @@ header {
 /* style the class about-author section */
   .about-author{
     height: 200px;
-    width: 100%;
-    display: block;
     height: 100%;
-   
+    display: flex;
+    flex-wrap: wrap;
   }
   /* Add style to the class article-content */
   .article-content {
@@ -269,7 +268,9 @@ header {
 }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-
+    body {
+      padding: 15px;
+    }
     }
     header {
       padding: 20px;
@@ -277,21 +278,26 @@ header {
     .flex-row {
       flex: 0 100%;
       justify-content: center;
+  
     }
     .flex-row h2 {
       font-size: 22px;
     }
     .article-content{
       flex: 0 100%;
-      
+      margin-bottom: 0;
     }
+
     .article-title {
-      flex: 0 80%;
-      align-items: center;
+      width: 100%;
+      text-align: center;
+      
     }
     .article-title h3 {
       color: #095153;
-     
+      margin: 0 auto;
+      padding: 10px;
+      
     }
     span {
       display: inline-block;
@@ -302,20 +308,23 @@ header {
     .article-info {
       flex: 0 100%;
       border: none;
-      margin: 0 auto;
+      margin: 10px auto;
     }  
     .article-info p {
-      margin: 0 auto;
+      margin: 15px auto;
+      
     }
     .article-info img {
       margin: 0 auto;
+      padding: 12px;
     }
     .horiseon-application {
       flex: 0 100%;
-      margin: 0;
+      margin: 10px auto;
     }
     .projects {
       flex: 0 100%;
+      margin: 10px auto;
     }
     .flex-item {
       padding: 4px 4px 4px 4px;
@@ -325,6 +334,6 @@ header {
     }
     .contact-link a{
       left: 1.55;
-      
+      display: block;
     }
   }
