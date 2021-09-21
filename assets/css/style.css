@@ -83,11 +83,11 @@ header {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 15px;
   }
   /* Add style to the class article-content */
   .article-content {
-    margin: 50px auto;
-    padding-bottom: 50px;
+    margin: 30px auto;
     width: 85%;
     display: flex;
     flex-wrap: wrap;
@@ -166,6 +166,10 @@ header {
  .flex-item h3 {
    font-size: 25px;
  }
+ .flex-item h3 a{
+   color: #e9f2f3;
+   text-decoration: none;
+ }
  /* style the paragraph on the class felx-item */
  .flex-item p {
    color: #e9f2f3;
@@ -184,6 +188,15 @@ header {
   font-size: 22px;
   color: #000;
 }
+/* Style the class resume-content h4 */
+   .resume-content h4 {
+     font-size: 25px;
+     color: #000;
+   }
+   .resume-content h5 {
+     color: #000;
+     
+   }
 /* Add background images for the class projects with id's */
  #github {
    background-image: url(../images/image-2.jpg);
@@ -240,6 +253,9 @@ header {
   footer h2, footer div {
     text-align: center;
     width: 100%;
+  }
+  .about-author {
+    display: flex;
   }
 
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
