@@ -11,11 +11,12 @@ body {
 }
 /* style the header of the page */
 header {
-    padding: 20px 35px;
+    padding: 20px 0;
     background-color: #030303;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
   }
   /* apply style to header h1*/
   header h1 a{
@@ -33,7 +34,7 @@ header {
   }
   /* apply style to the header nav */
   header nav {
-    margin: 7px 0;
+    margin: 7px 20px;
   }
   /* apply style to the header nav ul li */
   header nav ul {
@@ -184,15 +185,16 @@ header {
 /* style the class contact-link link(a) */
 .contact-link a {
   margin: 0 22px;
-  justify-content: space-evenly;
   font-size: 22px;
   color: #000;
+  justify-content: space-evenly;
 }
 /* Style the class resume-content h4 */
    .resume-content h4 {
      font-size: 25px;
      color: #000;
    }
+   /* Style the class resume-content h5 */
    .resume-content h5 {
      color: #000;
      
@@ -268,6 +270,7 @@ header {
     width: 100%;
     text-align: center;
     padding-left: 8px;
+    
   }
   header nav ul {
     margin-top: 20px;
@@ -275,21 +278,89 @@ header {
     justify-content: center;
   }
   header nav ul li a {
-    font-size: 18px;
+    font-size: 22px;
   }
-  footer h2, footer div {
+  footer div  {
     text-align: center;
+  }
+  footer h2 span {
+    display: block;
+  }
+  .flex-row {
+    flex: 0 100%;
+    justify-content: flex-end;
+
+  }
+  .flex-row h2 {
+    font-size: 25px;
+  }
+  .article-content{
+    flex: 0 100%;
+    margin-bottom: 0;
+  }
+
+  .article-title {
+    width: 100%;
+    text-align: center;
+    
+  }
+  .article-title h3 {
+    color: #095153;
+    margin: 0 auto;
+    padding: 10px;
+
+  }
+  span {
+    display:inline-block;
+  }
+  .about-author {
     width: 100%;
   }
+  .article-info {
+    flex: 0 100%;
+    border: none;
+    margin: 10px auto;
+  }  
+  .article-info p {
+    margin: 15px auto;
+    font-size: 22px;
+  }
+  .article-info img {
+    margin: 0 auto;
+    padding: 12px;
+  }
+  .horiseon-application {
+    flex: 0 100%;
+    margin: 10px auto;
+  }
+  .projects {
+    flex: 0 100%;
+    margin: 10px auto;
+  }
+  .flex-item {
+    padding: 4px 4px 4px 4px;
+  }
+  .flex-item h3 {
+    font-size: 25px;
+  }
+  
+  .contact-link a{
+    left: 1.55;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    body {
-      padding: 15px;
-    }
-    }
+  
     header {
       padding: 20px;
+    }
+    body {
+      padding: 15px;
     }
     .flex-row {
       flex: 0 100%;
@@ -328,7 +399,7 @@ header {
     }  
     .article-info p {
       margin: 15px auto;
-      
+      font-size: 20px;
     }
     .article-info img {
       margin: 0 auto;
@@ -348,6 +419,7 @@ header {
     .flex-item h3 {
       font-size: 18px;
     }
+    
     .contact-link a{
       left: 1.55;
       display: block;
