@@ -10,3 +10,7 @@
 * Lastly, my task is to make it responsive that will adapt the size of small or large screen viewport.
 
 * I build this website using semantic html, Advance CSS, flexbox and mediaqueries.
+
+## My deployed application
+ *  https://alma-dev914.github.io/My-Portfolio/
+ 
