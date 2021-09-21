@@ -198,17 +198,17 @@ header {
      
    }
 /* Add background images for the class projects with id's */
- #github {
+ #calculator {
    background-image: url(../images/image-2.jpg);
  }
  #application {
-   background-image: url(../images/image-3.jpg);
+   background-image: url(../images/github.png);
  }
  #run-buddy {
    background-image: url(../images/run-buddy2.jpg);
    background-position: top;
  }
- #calculator{
+ #led{
    background-image: url(../images/image-6.jpg);
  }
   /* style the footer */
