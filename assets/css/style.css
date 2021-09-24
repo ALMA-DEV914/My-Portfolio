@@ -424,16 +424,20 @@ header {
     justify-content: center;
   }
   header nav li {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 4px auto;
+    width: 100%;
+    background: #0eabb1;
+    border-radius: 15px;
 }
   header nav ul li a{
-    font-size: 18px;
-    
+    font-size: 22px;
+    padding: 8px;
+    border: none;
+    color: #f2fafa;
   }
-  
     body {
       padding: 15px;
     }
