@@ -13,5 +13,12 @@
 
 ## My deployed application
  *  https://alma-dev914.github.io/My-Portfolio/
+<<<<<<< HEAD
 
 
+=======
+ 
+ ### Snapshot of the application
+ ![20210922_115606](https://user-images.githubusercontent.com/65073138/134406544-d74df95d-4c79-4581-943c-50713d90ba2f.jpg)
+![20210922_115632](https://user-images.githubusercontent.com/65073138/134406559-25691dce-aac6-4786-9579-831e62ef9778.jpg)
+>>>>>>> 35b09ebfb1e8a8a8a6a1adeff81e5207a517f190
