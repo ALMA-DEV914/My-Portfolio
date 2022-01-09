@@ -218,13 +218,16 @@ header {
    background-position: top;
  }
  #led{
-   background-image: url(../images/project.jpg);
+   background-image: url(../images/project.png);
  }
  #weather{
-   background-image: url(../images/weather.png);
+   background-image: url(../images/weather2.png);
  }
  #notes{
    background-image: url(../images/scheduler.png);
+ }
+ #quiz{
+   background-image: url(../images/quiz.png);
  }
   /* style the footer */
   footer {
